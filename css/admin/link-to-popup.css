@@ -1,0 +1,52 @@
+.ltp-text-center {
+	text-align: center;
+}
+
+.ltp-admin {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.ltp-admin-message {
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	display: none;
+	margin-bottom: 1rem;
+    padding: .75rem 1.25rem;
+}
+
+.ltp-admin-message-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.ltp-admin-message-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.ltp-admin-left {
+	box-sizing: border-box;
+	float: left;
+	padding-right: 10px;
+	width: 50%;
+}
+
+.ltp-admin-right {
+	box-sizing: border-box;
+	float: right;
+	padding-left: 10px;
+	width: 50%;
+}
+
+.ltp-admin-row {
+	margin-bottom: 5px;
+}
+
+.wp-core-ui .button.ltp-delete {
+	background-color: #dc3545;
+	border-color: #dc3545;
+	color: #ffffff;
+}
