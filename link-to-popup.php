@@ -41,8 +41,8 @@ function link_to_popup_admin_enqueue_scripts () {
 
 add_action( 'wp_enqueue_scripts', 'link_to_popup_enqueue_scripts' );
 function link_to_popup_enqueue_scripts () {
-	wp_enqueue_style( 'magnific-popup-style', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css', false, '1.1.0', 'all');
-	wp_enqueue_script( 'magnific-popup-script', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js', array( 'jquery' ), '1.1.0' );
+	wp_enqueue_style( 'magnific-popup-style', plugin_dir_url( __FILE__ ) . 'css/magnific-popup.min.css', false, '1.1.0', 'all');
+	wp_enqueue_script( 'magnific-popup-script', plugin_dir_url( __FILE__ ) . 'js/jquery.magnific-popup.min.js', array( 'jquery' ), '1.1.0' );
 	wp_enqueue_script( 'link-to-popup-script', plugin_dir_url( __FILE__ ) . 'js/link-to-popup.js', array( 'jquery' ), '1.0' );
 }
 
